@@ -1,20 +1,18 @@
-theme: jekyll-theme-minima
-
 # Site-wide settings
 # ------------------
 #
-# title: Your awesome title
+ title: Your awesome title
 #
-# author:
-#   name: GitHub User
-#   email: your-email@domain.com
+ author:
+   name: GitHub User
+   email: your-email@domain.com
 #
 # The `>` after `description:` means to ignore line-breaks until next key. If
 #   you wish to omit the line-break after the end of text, use `>-` instead.
-# description: >
-#   Write an awesome description for your new site here. You can edit this line
-#   in _config.yml. It will appear in your document head meta (for Google search
-#   results) and in your feed.xml site description.
+ description: >
+   Write an awesome description for your new site here. You can edit this line
+   in _config.yml. It will appear in your document head meta (for Google search
+   results) and in your feed.xml site description.
 
 
 # Build settings
@@ -28,12 +26,12 @@ theme: jekyll-theme-minima
 #   bypassing a Gemfile, use the following setting instead.
 #   It is best that you lock to a particular commit and update if uptream changes
 #   do not affect your site adversely.
-# remote_theme: jekyll/minima@d4d779a
+ remote_theme: jekyll/minima@d4d779a
 #
 # Minima requires the following plugins:
-# plugins:
-#  - jekyll-feed
-#  - jekyll-seo-tag
+ plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 #
 # Uncomment the following setting if you wish to disable deprecation warnings
 #   from newer versions of sass converter. Adapt as required.
